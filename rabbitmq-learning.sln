@@ -55,6 +55,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "dead-letter-queue-rabbitmq"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsumidorDeadLetterRabbitMq", "ConsumidorDeadLetterRabbitMq\ConsumidorDeadLetterRabbitMq.csproj", "{A046BF52-A06C-4D48-99D9-8FA329F1A9E1}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "message-ttl-rabbitmq", "message-ttl-rabbitmq", "{FBC6A4B4-2354-40AF-BD57-2EBD29D3C118}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MessageTTLRabbitMq", "MessageTTLRabbitMq\MessageTTLRabbitMq.csproj", "{195117E3-8705-4C34-A2EF-523F3331C3E6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -129,6 +133,10 @@ Global
 		{A046BF52-A06C-4D48-99D9-8FA329F1A9E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A046BF52-A06C-4D48-99D9-8FA329F1A9E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A046BF52-A06C-4D48-99D9-8FA329F1A9E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{195117E3-8705-4C34-A2EF-523F3331C3E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{195117E3-8705-4C34-A2EF-523F3331C3E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{195117E3-8705-4C34-A2EF-523F3331C3E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{195117E3-8705-4C34-A2EF-523F3331C3E6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -151,6 +159,7 @@ Global
 		{FE81A839-F387-4607-B051-F547F8F184FA} = {DDA2688E-D57B-4ECE-B585-66E41AB6B627}
 		{AF47A669-073F-4B22-9755-274613884A3B} = {DDA2688E-D57B-4ECE-B585-66E41AB6B627}
 		{A046BF52-A06C-4D48-99D9-8FA329F1A9E1} = {3936F74D-BC0F-488C-B719-EDE517563B44}
+		{195117E3-8705-4C34-A2EF-523F3331C3E6} = {FBC6A4B4-2354-40AF-BD57-2EBD29D3C118}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {0CE75591-7E89-4641-A13E-0A4F1D5DA23F}
