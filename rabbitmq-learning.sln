@@ -57,11 +57,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsumidorDeadLetterRabbitM
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "message-ttl-rabbitmq", "message-ttl-rabbitmq", "{FBC6A4B4-2354-40AF-BD57-2EBD29D3C118}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MessageTTLRabbitMq", "MessageTTLRabbitMq\MessageTTLRabbitMq.csproj", "{195117E3-8705-4C34-A2EF-523F3331C3E6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MessageTTLRabbitMq", "MessageTTLRabbitMq\MessageTTLRabbitMq.csproj", "{195117E3-8705-4C34-A2EF-523F3331C3E6}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "persistence-message-durable-queue-rabbitmq", "persistence-message-durable-queue-rabbitmq", "{609B6C69-E041-4FC1-A899-F66C45D0C1A9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PublishPersistenceMessage", "PublishPersistenceMessage\PublishPersistenceMessage.csproj", "{8DC92C7B-B569-460D-B7D8-6F106F2AD301}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PublishPersistenceMessage", "PublishPersistenceMessage\PublishPersistenceMessage.csproj", "{8DC92C7B-B569-460D-B7D8-6F106F2AD301}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "publish-confirmation-rabbitmq", "publish-confirmation-rabbitmq", "{FF492E08-FA1C-4B83-9152-4FA056D4B9FE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PublishConfirmationRabbitMq", "PublishConfirmationRabbitMq\PublishConfirmationRabbitMq.csproj", "{AB9914AD-C034-4B13-AF0A-F747C7552608}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -145,6 +149,10 @@ Global
 		{8DC92C7B-B569-460D-B7D8-6F106F2AD301}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8DC92C7B-B569-460D-B7D8-6F106F2AD301}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8DC92C7B-B569-460D-B7D8-6F106F2AD301}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB9914AD-C034-4B13-AF0A-F747C7552608}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB9914AD-C034-4B13-AF0A-F747C7552608}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB9914AD-C034-4B13-AF0A-F747C7552608}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB9914AD-C034-4B13-AF0A-F747C7552608}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -169,6 +177,7 @@ Global
 		{A046BF52-A06C-4D48-99D9-8FA329F1A9E1} = {3936F74D-BC0F-488C-B719-EDE517563B44}
 		{195117E3-8705-4C34-A2EF-523F3331C3E6} = {FBC6A4B4-2354-40AF-BD57-2EBD29D3C118}
 		{8DC92C7B-B569-460D-B7D8-6F106F2AD301} = {609B6C69-E041-4FC1-A899-F66C45D0C1A9}
+		{AB9914AD-C034-4B13-AF0A-F747C7552608} = {FF492E08-FA1C-4B83-9152-4FA056D4B9FE}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {0CE75591-7E89-4641-A13E-0A4F1D5DA23F}

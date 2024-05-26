@@ -137,3 +137,15 @@ O repositório é organizado em pastas, cada uma contendo um exemplo específico
   - Por fim, o programa publica a mensagem na fila "persistence-message" e exibe uma mensagem de confirmação no console. Ele aguarda que o usuário pressione [enter] para finalizar a execução.
 
   - Este código demonstra como configurar um produtor RabbitMQ para enviar mensagens que são persistentes, garantindo sua durabilidade.
+
+### publish-confirmation-rabbitmq
+
+- **PublishConfirmationRabbitMq**:
+
+  - Esse código é um exemplo básico de como usar o RabbitMQ em C# para publicar mensagens e confirmar sua entrega. Ele cria uma conexão com o RabbitMQ, configura um canal de comunicação, declara uma fila chamada "order", publica uma mensagem nessa fila e espera por confirmações de que a mensagem foi entregue com sucesso.
+
+  - O método Main é onde a execução começa. Ele configura a conexão com o RabbitMQ, cria um canal de comunicação e declara a fila "order". Em seguida, publica uma mensagem nessa fila usando channel.BasicPublish. Depois, espera por confirmações de entrega usando channel.WaitForConfirms.
+
+  - Os métodos Channel_BasicAcks, Channel_BasicNacks e Channel_BasicReturn são chamados para lidar com confirmações de entrega ou falha. Se a mensagem for entregue com sucesso, Channel_BasicAcks é chamado. Se houver um problema na entrega, Channel_BasicNacks é chamado. E se a mensagem não puder ser entregue e for retornada, Channel_BasicReturn é chamado.
+
+  - Por fim, o programa espera por uma entrada do usuário antes de encerrar.
